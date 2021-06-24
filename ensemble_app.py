@@ -44,7 +44,7 @@ st.write(df_web)
 
 #######################
 
-data = pd.read_csv(r"D:\MASTER _ Production Eng\THESIS _ Machine Learning\Main Folder\Codes & DataSets\DataSet _ Natural Depletion.csv")
+data = pd.read_csv("https://github.com/aryanDAB/formation-damage-estimation/blob/main/DataSet%20_%20Natural%20Depletion.csv?raw=true")
 df = data.drop(['Source', 'Year', 'FirstAuthor', 'Injection FlowRate (cc/hour)'], axis=1)
 
 from sklearn.preprocessing import LabelEncoder
