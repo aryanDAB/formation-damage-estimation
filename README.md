@@ -1,2 +1,2 @@
-# formation damage estimation by Decision Tree
-In this section, i've implemented a streamlit web application with Decision Tree algorithm, which is a machine learning method, that predicts the amount of permeability reduction of reservoir rock samples, affected by asphaltene deposotion and precipitation
+# formation damage estimation by Extra Trees
+In this section, I've created a streamlit web application that uses the Extra trees algorithm, an ensemble learning method, to forecast the degree of permeability reduction in reservoir rock samples as a result of asphaltene deposition and precipitation.=======
