@@ -1,16 +1,8 @@
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns 
 from sklearn.ensemble import ExtraTreesRegressor
 from xgboost import XGBRegressor
 from boruta import BorutaPy
-
-
-
-# model.fit(x_train_filtered, y_train)
-
-# print(model.score(x_test_filtered, y_test))
 
 
 ########################################################
