@@ -44,7 +44,10 @@ st.write(df_web)
 
 #######################
 
-data = pd.read_csv('https://bit.ly/asphaltene_data')
+sheet_url = 'https://docs.google.com/spreadsheets/d/10RCjLk3xHEwbTJbHK4BOAqksVkaPkufojZuvHxuo0kc/edit#gid=2052486795'
+url_1 = sheet_url.replace('/edit#gid=', '/export?format=csv&gid=')
+data = pd.read_csv(url_1)
+
 df = data.drop(['Source', 'Year', 'FirstAuthor', 'Injection FlowRate (cc/hour)'], axis=1)
 
 from sklearn.preprocessing import LabelEncoder
