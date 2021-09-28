@@ -12,7 +12,7 @@ WEB APPLICATION
 '''
 import streamlit as st
 
-st.write('Estimation of Permeability Reduction due to Asphaltene Deposition By Extra Trees Algorithm')
+st.header('Estimation of Permeability Reduction due to Asphaltene Deposition By Extra Trees Algorithm')
 
 st.sidebar.header('User input parameters')
 
